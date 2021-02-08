@@ -1,4 +1,5 @@
 let img;
+let easing = 0.1;
 function preload() {
   img = loadImage("buddha-head.jpg");
   img.resize(100,100);
@@ -15,11 +16,9 @@ function draw() {
   noStroke();
   let tiles = 100;
   let tileSize = width/tiles;
-  // ellipse(80, 80, 10, 10)
+
   push();
-  rotateY(radians(frameCount*10));
-  console.log(frameCount)
-  
+  rotateY(radians(frameCount*10))*easing;
 
   for (let x = 0; x < tiles; x ++) {
     for (let y = 0; y < tiles; y ++) {
