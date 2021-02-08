@@ -1,4 +1,4 @@
-!["Spinning rastarized image"]()
+!["Spinning rastarized image"](https://github.com/samamoo/p5js-rastarized-image/blob/master/docs/p5js-rastarized.gif?raw=true)
 
 # Welcome to p5.js
 
